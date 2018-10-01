@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -23,14 +25,15 @@
             <div class="list">
                 <h2 class="list-title">Groceries</h2>
                 <ol>
-                    <li>Eggs</li>
-                    <li>Milk</li>
-                    <li>Cereal</li>
+                    <li>Eggs <button class="delete-item">X</button></li>
+                    <li>Milk <button class="delete-item">X</button></li>
+                    <li>Cereal <button class="delete-item">X</button></li>
+
                 </ol>
 
             </div>
             <input type="text"></input>
-            <button>Add Item</button>
+            <button id="add-item">Add Item</button>
 
         </div>
     </div>
