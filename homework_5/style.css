@@ -1,0 +1,61 @@
+body {
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+/*********** HEADER ************/
+header {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#topright{
+    position: absolute;
+    top: 15px;
+    right: 160px;
+}
+#topright2{
+    position: absolute;
+    top: 15px;
+    right: 70px;
+    }
+.list {
+    text-align: center;
+    font-size: 20px;
+}
+.opacity{
+    opacity:0.6;
+    position: relative;
+}
+#blackberry {
+    padding-top: 80px;
+    padding-left: 250px;
+}
+#blackberryheader{
+    position: absolute;
+    top: 160px;
+    left: 750px;
+}
+#price{
+    position: absolute;
+    top: 210px;
+    left: 750px;
+}
+#berrydes{
+    position: absolute;
+    top: 270px;
+    left: 750px;
+}
+#countoptions{
+    position: absolute;
+    top: 350px;
+    left: 750px;
+}
+#glazeoptions{
+    position: absolute;
+    top: 450px;
+    left: 750px;
+}
+#buyoptions{
+    position: absolute;
+    top: 600px;
+    left: 750px;
+}
