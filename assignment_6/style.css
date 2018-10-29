@@ -29,11 +29,11 @@ header {
     font-size: 20px;
 }
 /* Product Detail Page */
-#blackberry {
+#productpic {
     padding-top: 50px;
     padding-left: 250px;
 }
-#blackberryheader{
+#productname{
     position: absolute;
     top: 180px;
     left: 750px;
@@ -43,7 +43,7 @@ header {
     top: 230px;
     left: 750px;
 }
-#berrydes{
+#productdes{
     position: absolute;
     top: 290px;
     left: 750px;
@@ -88,4 +88,13 @@ header {
     top: 300px;
     left: 830px;
     padding-right: 80px;
+}
+#displaycart{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+#totalprice{
+    padding-top:50px;
+    padding-left:1100px;
 }
