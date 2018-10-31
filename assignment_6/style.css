@@ -88,6 +88,9 @@ header {
     top: 300px;
     left: 830px;
     padding-right: 80px;
+
+/* Shopping Cart Page */
+
 }
 #displaycart{
     padding-top: 50px;
@@ -97,4 +100,73 @@ header {
 #totalprice{
     padding-top:50px;
     padding-left:1100px;
+}
+
+#checkoutbutton{
+    padding-top: 50px;
+    padding-left:100px;
+}
+
+#orders, .orderitemlist{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#orders {
+    border-style: solid;
+    border-left: 80px;
+    border-right:80px;
+    border-color: gray;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 5px;
+}
+
+#no-orderitemlist{
+    margin: 75px auto;
+}
+
+.ordercart {
+    width: 100%;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.orderpic {
+    display: inline-flex;
+    width:14%;
+}
+.cartpart {
+    display: inline-block;
+}
+.cartpart, .orderpic {
+    float: left;
+}
+.orderpic img{
+    width:100%
+    height:100%;
+}
+.cartpart{
+    width:14%
+    margin-left: 2.5%;
+    position: relative;
+}
+
+.cartlabel {
+    text-align: left;
+    width: 160px;
+}
+#totalvalue{
+    margin-left: 30px;
+}
+.orderitemlist{
+    display: flex;
+}
+.removebutton{
+    display: inline-block;
+    float: right;
+    width: 50px;
+    border-style: none;
 }
