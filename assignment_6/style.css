@@ -118,8 +118,8 @@ header {
     border-left: 80px;
     border-right:80px;
     border-color: gray;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
     padding-top: 5px;
 }
 
@@ -136,7 +136,7 @@ header {
 
 .orderpic {
     display: inline-flex;
-    width:14%;
+    width:15%;
 }
 .cartpart {
     display: inline-block;
@@ -149,7 +149,7 @@ header {
     height:100%;
 }
 .cartpart{
-    width:14%
+    width:15%
     margin-left: 2.5%;
     position: relative;
 }
@@ -161,9 +161,7 @@ header {
 #totalvalue{
     margin-left: 30px;
 }
-.orderitemlist{
-    display: flex;
-}
+
 .removebutton{
     display: inline-block;
     float: right;
